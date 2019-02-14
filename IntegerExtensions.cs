@@ -6,8 +6,10 @@ namespace PadawansTask3
     {
         public static int Gcd(int a, int b)
         {
-            // put your code here
-            throw new NotImplementedException();
+            if (a <= 0 || b <= 0)
+            { throw new ArgumentException(); }
+
+
         }
     }
 }
